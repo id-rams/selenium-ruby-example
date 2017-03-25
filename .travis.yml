@@ -5,9 +5,5 @@ rvm: # the Ruby versions to be used
 
 before_install:
   - gem install selenium-webdriver
-  - gem install os
   - gem install test-unit
   - gem install rake
-  - export CHROME_BIN=chromium-browser
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
