@@ -5,7 +5,7 @@ module Test
   class TestTitleYandex < Test::Unit::TestCase
 
     PATH_CHROME_WIN = 'resources\browser_driver\chromedriver.exe'
-    PATH_CHROME_LINUX = 'resources\browser_driver\chromedriver'
+    PATH_CHROME_LINUX = 'resources/browser_driver/chromedriver'
     BASE_URL = 'https://ya.ru/'
 
     def setup
